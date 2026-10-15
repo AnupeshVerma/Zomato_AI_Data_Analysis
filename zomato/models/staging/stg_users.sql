@@ -1,7 +1,7 @@
 -- Here the source is from source that we have defined in the __sources.yml file.
 
 SELECT 
-    user_id::NUMBER AS user_id,
+    user_id::NUMBER AS customer_id,
     name AS customer_name,
     LOWER(email) AS email,
     TRY_TO_NUMBER(age) AS age,
