@@ -8,4 +8,4 @@ SELECT
     cuisine,
     lic_no AS license_no
 FROM {{ source('raw', 'restaurants') }}
-WHERE TRY_TO_NUMBER(id) IS NOT NULL;
+WHERE TRY_TO_NUMBER(id) IS NOT NULL
