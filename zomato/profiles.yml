@@ -1,0 +1,14 @@
+zomato:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      threads: 16
+      account: PAYDSGJA-KX458679
+      user: ANUPESHVERMA
+      private_key_path: /opt/airflow/dags/rsa_key.p8
+      private_key_passphrase: "A998471!
+      database: ZOMATO
+      warehouse: ZOMATO_WH
+      schema: STAGING
+      role: DBT_ROLE
